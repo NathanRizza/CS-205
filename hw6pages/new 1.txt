@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="utf-8">
+<title>Rizza’s Pizzas</title>
+<link rel="stylesheet" href="../hw6style.css" type="text/css">
+</head>
+ 
+<body>
+
+<div id="top"> 
+	<h1>Rizza's Pizzas</h1>
+</div>
+
+<div id="top"> 
+	 <a href="../index.html"> Home </a> 
+	  &nbsp;
+	 <a href="menu.html"> Menu </a> 
+	 &nbsp;
+	 <a href="pictures.html"> Pictures </a>
+	 &nbsp;
+	 <a href="Reviews.html"> Reviews </a>
+	 &nbsp;
+	 <a href="history.html"> History </a>
+</div>
+
+
+<div id="footer"> 
+	<h4> &copy; Rizza’s Pizzas 1968-2021 Nathan Rizza</h4>
+ </div>
+</body>
+</html>
