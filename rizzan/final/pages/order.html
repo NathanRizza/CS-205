@@ -1,0 +1,93 @@
+<!--#include virtual="../common/header.html"-->
+ 
+<body>
+ 
+ <!--#include virtual="../common/menu.html"-->
+<div id="container">
+	<div id="centerdiv">
+
+		<h3> Location: 1033 West Canal Lane, Rome, Italy </h3>
+		<h3>Contact info: rizzas@pizzas.com , 39+ 822-554-9900</h3>
+		
+		<form name="orderForm" action="scripts/validate.php" method="post">
+			<label for="name">Name:</label>
+			<br>
+  			<input type="text" id="name" name="name">
+			<br>
+  		
+			<label for="address">Address:</label>
+			<br>
+                	<input type="text" id="address" name="address">
+			<br>
+
+			<label for="email">Email:</label>
+			<br>
+  			<input type="text" id="email" name="email">
+			<br>
+		
+			<label for="phone">Phone Number:</label>
+			<br>
+                	<input type="tel" id="phone" name="phone">
+			<br>
+			<br>
+                
+
+			<label for"pizzaNum">Number of Pizzas:</label>
+			<input type="number" id="pizzaNum" name="pizzaNum">
+			<br>
+			<br>
+
+
+			<label for "pizzaSize">Pizza Size:</label>
+			<select name = "pizzaSize">
+            		<option value = "small" selected>Small</option>
+            		<option value = "medium">Medium</option>
+            		<option value = "large">Large</option>	
+			</select>
+		
+			<br>
+			<br>
+
+			
+			<label for "pizzaCrust">Pizza Crust:</label>
+			<select name = "pizzaCrust">
+            		<option value = "thin" selected>Thin</option>
+            		<option value = "thick">Thick</option>
+            		<option value = "stuffed">Stuffed</option>	
+			</select>
+		
+			<br>
+			<br>
+
+
+			<label for "toppingLeft">Topping Left:</label>
+			<select name = "toppingLeft">
+            		<option value = "plain" selected>Plain</option>
+            		<option value = "pepperonie">Pepperonie</option>
+            		<option value = "pineapple">Pineapple</option>	
+			</select>
+		
+			<label for "toppingRight">Topping Right:</label>
+			<select name = "toppingRight">
+            		<option value = "plain" selected>Plain</option>
+            		<option value = "pepperonie">Pepperonie</option>
+            		<option value = "pineapple">Pineapple</option>	
+			</select>
+			
+			<br>
+			<br>
+
+			<input type="reset" value="Reset Order">
+			<input type="submit" value="Submit Order">
+			<br>
+			<br>
+		</form> 
+	</div>
+</div>
+ 
+<!--#include virtual="../common/footer.html"-->
+
+<script type="text/javascript" src="scripts/scriptsR.js"></script> 
+
+</body>
+</html>
